@@ -1,0 +1,50 @@
+/* 
+    + ul = unordered list, lista non ordinata
+    + list-style-type = simbolo a lato degli elementi
+        della lista, none = rimuovi simboli.
+    + margin e padding a 0 rimuovono il comportamento
+        delle liste di default circa la spaziatura
+*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+/*
+    + display inline serve a far comportare gli 
+        elementi in stile block (table) come se 
+        fossere inline (link) 
+*/
+li{
+    float: left;
+}
+
+li a{
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+
+li a:hover{
+    background-color: gray;
+}
+
+*{  
+   margin: 0;
+   padding: 0; 
+}
+
+.fdx{
+    float:right;
+}
+
+.imgl{
+    /*float: left;*/
+    width: 30%;
+}

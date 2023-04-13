@@ -1,0 +1,13 @@
+hr{
+    border-style: dotted;
+    color: red;
+    border-color: red;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1, h2, h3{
+    text-align: center;
+}

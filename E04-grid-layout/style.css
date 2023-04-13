@@ -1,0 +1,24 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    background-color: aqua;
+  }
+
+.item-img{
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
+.item-nome{
+    grid-column: 3 / span 2;
+}
+
+.item-cognome{
+    grid-column: 3 / span 2;
+}
+
+.item-competenze{
+    grid-column: 3 / span 2;
+}

@@ -1,0 +1,23 @@
+table, td, th{
+    border: 1px solid black;
+    /* font-size: 4vw;
+    
+        vh o vw = view height o view width per 
+        proporzionare la dimensione del testo
+        alla grandezza dello schermo
+     */
+    
+}
+
+table{
+    width: 80%; 
+    margin: auto;
+}
+
+.icona{
+    display: block;
+    width: 15%;
+    margin: auto;
+}
+
+

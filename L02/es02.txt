@@ -1,0 +1,17 @@
+Che attributo css devo usare per rendere più chiara o più
+scura un'immagine?
+
+Usare float per mettere l'immagine a sinistra e un paragrafo 
+alla sua destra.
+
+Aggiungete del margin e del padding al paragrafo.
+come aggiungo del margin solo a sinistra? e solo sotto?
+
+Create un link il cui colore del testo, del background 
+e la text decoration cambi a seconda che vada sopra
+con il mouse, lo clicchi o lo abbia già visitato.
+
+(html entities) Scrivere un paragrafo con il seguente contenuto:
+"Il caffè che c'è in città si chiama <h1>c</h1>"
+
+Cambiare il comportameto del font. (es: kerning)

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- <form action="http://172.16.3.250:8080/index.php" 
+              method="post"
+        > -->
+    <form action="" method="post" target="_blank" autocomplete="on">
+
+        <div class="grid-form">
+            <label for="username">Utente:</label>
+
+            <input type="text" name="username" id="username" placeholder="es: superman76" maxlength="50" minlength="5"
+                required>
+            
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Almeno 8 caratteri" minlength="8"
+                maxlength="50" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="es: mario.rossi@gmail.com">
+        
+        
+
+        <label style="grid-column: 1 / span 2; text-align: center;">Qual è il tuo linguaggio preferito?</label>
+        <input type="radio" name="radio" id="CSS" value="CSS">
+        <label for="CSS">CSS</label>
+        
+
+        <input type="radio" name="radio" id="HTML" value="HTML">
+        <label for="HTML">HTML</label>
+
+        <input type="radio" name="radio" id="HTML" value="HTML">
+        <label for="JAVASCRIPT">Javascript</label>
+
+
+        <input type="checkbox" name="check" id="accetta">
+        <label for="accetta">Accetto le condizioni di servizio</label>
+
+        <input style="grid-column: 1 / span 2;" type="submit" value="Invia">
+
+    </div>
+    </form>
+</body>
+
+</html>

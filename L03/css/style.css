@@ -1,0 +1,21 @@
+caption{
+    caption-side: bottom;
+}
+
+.classe1{
+    color: aqua;
+}
+
+#id1{
+    border: 2px solid green;
+}
+
+table, th, td{
+    border: 1px dashed rgb(77, 8, 77);
+    border-collapse: collapse;
+}
+
+td{
+    padding: 10px;
+    text-align:center;
+}
