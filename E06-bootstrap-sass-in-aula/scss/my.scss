@@ -1,0 +1,29 @@
+/*@use '../bootstrap/scss/bootstrap.scss';
+
+$primary : red;
+
+h1{
+  background-color: $primary;
+}*/
+
+@import '../bootstrap/scss/functions';
+
+$primary : rgb(69, 240, 7);
+
+$custom-colors: (
+  "rosso-cocacola":  #fe001a
+);
+
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/variables-dark";
+
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+
+@import "../bootstrap/scss/maps";
+@import "../bootstrap/scss/mixins";
+@import "../bootstrap/scss/root";
+
+@import "../bootstrap/scss/bootstrap";

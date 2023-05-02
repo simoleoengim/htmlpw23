@@ -1,0 +1,25 @@
+$colore-principale: red;
+$linea-principale: 1px solid;
+
+
+.miaclasse1{
+    color: $colore-principale;
+    font-size: 10px;
+    
+}
+
+.miaclasse2{
+    color: $colore-principale;
+    font-style:italic;
+}
+
+table{
+    border: $linea-principale black;
+    h1{
+        color:$colore-principale;
+    }
+}
+
+p{
+  color: darkred;
+}

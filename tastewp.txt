@@ -1,0 +1,11 @@
+Nome del sito Like Pet
+URL https://likepet.s1-tastewp.com
+Username admin
+Password AA4DdSrwBjQ
+
+
+Nome del sito Racial Wren
+URL https://racialwren.s1-tastewp.com
+Username simoleoengim
+Password wa56oLm5QGM
+

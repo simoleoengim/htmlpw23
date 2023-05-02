@@ -1,0 +1,20 @@
+.miaclasse1 {
+  color: red;
+  font-size: 10px;
+}
+
+.miaclasse2 {
+  color: red;
+  font-style: italic;
+}
+
+table {
+  border: 1px solid black;
+}
+table h1 {
+  color: red;
+}
+
+p {
+  color: darkred;
+}/*# sourceMappingURL=style.css.map */
